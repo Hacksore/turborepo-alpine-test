@@ -2,4 +2,6 @@
 
 Run `make` then when in the container run `npm run build`
 
-Thanks to @nathanhammond for suggestion this quick fix.
+Big thanks to @nathanhammond for suggesting this quick fix.
+
+Original issue https://github.com/vercel/turborepo/issues/2310
