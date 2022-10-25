@@ -1,7 +1,15 @@
 # Running turbo in an alpine based image
 
-Run `make` then when in the container run `npm run build`
+Run `make` then when in the container run `pnpm build`
 
-Big thanks to @nathanhammond and @rafaeltab for suggesting this quick fix.
+Current error:
+```
+/app/turborepo/examples/basic # pnpm build
+
+> @ build /app/turborepo/examples/basic
+> turbo run build
+
+sh: turbo: not found
+```
 
 Original issue https://github.com/vercel/turborepo/issues/2310
